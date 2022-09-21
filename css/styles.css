@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Globals */
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+span {
+  border: 1px solid gray;
+  width: 50px;
+  padding: 10px 12px;
+}
+
+/* Head Area CSS */
+.header {
+  padding: 12px 24px 12px 24px;
+  background-color: #3c3a39;
+}
+
+.developer {
+  font-family: 'Roboto', sans-serif;
+}
+
+.header ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-content: center;
+  padding: 4px;
+}
+
+.header ul a {
+  font-size: 18px;
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Welcome Area CSS */
+.welcome-area {
+  display: flex;
+  flex-direction: column;
+  background-image: url('/images/header-bg.svg');
+  background-repeat: no-repeat;
+  background-position: 100% 120%;
+  background-color: #1c1a19;
+  padding: 120px 24px 130.06px 24px;
+}
+
+.title {
+  font-family: 'Crete Round', serif;
+  color: #ff6b00;
+  font-size: 56px;
+  font-weight: 400;
+}
+
+.subtitle {
+  font-family: 'Roboto', sans-serif;
+  color: #fff5e1;
+  font-weight: 700;
+  font-size: 42px;
+  padding: 12px 0;
+}
+
+.description {
+  font-family: 'Poppins', sans-serif;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+  padding: 0 0 21.98px 0;
+  line-height: 24px;
+}
+
+.social-links {
+  color: #fff;
+  font-size: 18px;
+  display: flex;
+  flex-direction: row;
+}
+
+.social-links li i {
+  padding: 10px;
+}
+
+.social-links li a {
+  color: #fff;
+  font-size: 20px;
+}
