@@ -2,8 +2,7 @@
 
 # Stuart Dambi Developer Profile
 
-> This repository contains the starting lessons about Gitflow
-> and Github actions first setup
+> This repository contains my developer profile
 
 ## Built With
 
