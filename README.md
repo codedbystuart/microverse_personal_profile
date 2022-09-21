@@ -1,6 +1,6 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# My First Gitflow lesson
+# Stuart Dambi Developer Profile
 
 > This repository contains the starting lessons about Gitflow
 > and Github actions first setup
@@ -16,8 +16,8 @@
 
 ## Getting Started
 
-Clone the repository using the command `git clone https://github.com/codedbystuart/microverse_gitflow_start.git`
-Navigate into the `microverse_gitflow_start` and run the index.html file
+Clone the repository using the command `git clone https://github.com/codedbystuart/microverse_personal_profile.git`
+Navigate into the `microverse_personal_profile` and run the index.html file
 
 You are good to go live 🔥
 
