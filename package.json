@@ -1,0 +1,21 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "Stuart Dambi Developer Profile",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com-codedbystuart:codedbystuart/microverse_personal_profile.git"
+  },
+  "keywords": [
+    "Nodejs",
+    "Javascript",
+    "Fullstack",
+    "Developer"
+  ],
+  "author": "Stuart Dambi",
+  "license": "MIT"
+}
