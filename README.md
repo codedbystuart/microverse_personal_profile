@@ -19,9 +19,15 @@ Navigate into the `microverse_personal_profile` and run the index.html file
 You are good to go live 🔥
 
 ### Prerequisites
-
+- Node and NPM
 - Code Editor
 - Browser (Chrome, Safari, Firefox)
+
+### Install
+Install the Linter packages using the command `npm run install`.
+
+### Usage
+Just run the index.html file and open it in the browser. You should be able to see the website running
 
 ## Authors
 
