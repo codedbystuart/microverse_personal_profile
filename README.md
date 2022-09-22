@@ -2,16 +2,14 @@
 
 # Stuart Dambi Developer Profile
 
-> This repository contains my developer profile
+> This repository contains my developer profile built with HTML and CSS.
+> Project also introduces me to the use of Github workflows and Linters in HTML and CSS
 
 ## Built With
 
 - HTML
 - CSS
 
-## Live Demo (if available)
-
-[Not Published](#)
 
 ## Getting Started
 
