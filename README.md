@@ -2,17 +2,13 @@
 
 # Stuart Dambi Developer Profile
 
-> This repository contains the starting lessons about Gitflow
-> and Github actions first setup
+> This repository contains my developer profile built with HTML and CSS.
+> Project also introduces me to the use of Github workflows and Linters in HTML and CSS
 
 ## Built With
 
 - HTML
 - CSS
-
-## Live Demo (if available)
-
-[Not Published](#)
 
 ## Getting Started
 
@@ -23,8 +19,17 @@ You are good to go live 🔥
 
 ### Prerequisites
 
+- Node and NPM
 - Code Editor
 - Browser (Chrome, Safari, Firefox)
+
+### Install
+
+Install the Linter packages using the command `npm run install`.
+
+### Usage
+
+Just run the index.html file and open it in the browser. You should be able to see the website running
 
 ## Authors
 
