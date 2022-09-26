@@ -189,12 +189,14 @@ span {
 }
 
 .project-card-two .tech-stack {
-  display: flex;
-  flex-direction: row;
+  /* display: flex; */
+  /* flex-direction: row; */
   padding: 12px 16px 12px 16px;
+  clear: both;
 }
 
 .project-card-two .tech-stack .tech-item {
+  float: left;
   padding: 12px 12px 12px 0;
   color: #fff;
 }
