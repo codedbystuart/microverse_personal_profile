@@ -336,7 +336,6 @@ span {
   height:114px;
   padding: 15px 16px;
   margin:0px 10px;
-  margin-bottom:24px;
   
 }
 
@@ -355,6 +354,7 @@ span {
   color:#fff;
   width: 131px;
   height: 48px;
+  margin-top:24px;
   font-style: normal;
   font-weight: 700;
   font-size: 17px;
@@ -367,3 +367,30 @@ span {
 
 /* Footer-section   */
 
+.footer-section{
+  width:375;
+  height:72px;
+  margin-top:120px;
+  display:flex;
+  flex-direction:column;
+  justify-content:space-between;
+  align-items:center;
+  border-top:1px solid #DFE1E6;
+
+
+}
+.footer-social-links{
+  color: #2f6bd3 !important;
+}
+
+.footer-social-links li a {
+  color:#505F79;
+  font-size: 20px;
+}
+.footer-divider{
+  height:5px;
+  width:134px;
+  background: #0D151E;
+  margin-bottom:8px;
+  border-radius:10px;
+}
