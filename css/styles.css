@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Crete+Round&family=Inter:wght@700&family=Poppins:wght@100&family=Roboto:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crete+Round&family=Inter:wght@400;700&family=Poppins:wght@100&family=Roboto:wght@700&display=swap');
 
 * {
   margin: 0;
@@ -260,7 +260,7 @@ span {
   color: #ff6b00 !important;
   padding-top: 12px;
   padding-right: 12px;
-  font-size: 18px;
+  font-size: 40px;
 }
 
 .language-title {
@@ -281,3 +281,89 @@ span {
   text-align: center;
   padding: 12px;
 }
+
+/* Form Section */
+
+.form-title{
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  text-align: center;
+  color: #172B4D;
+  width: 327px;
+  height: 216px;
+  margin: 120px 24px;
+}
+
+.contact-form{
+  display:flex;
+  flex-direction:column;
+  align-items: center;
+  padding:20px;
+
+}
+
+.form-input{
+  border:0px;
+  /* border-bottom:1px; */
+  width: 295px;
+  height: 18px;
+  padding: 15px 16px;
+ 
+  margin:14px 0;
+}
+.form-input::placeholder{
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: #979493;
+}
+
+/* Horizantal line under form inputs */
+.form-divider{
+  height:1px;
+  width:327px;
+  background: #DBD8D7;
+  border:1px;
+  margin-bottom:24px;
+}
+.form-textarea{
+  width:327px;
+  height:114px;
+  padding: 15px 16px;
+  margin:0px 10px;
+  margin-bottom:24px;
+  
+}
+
+.form-textarea::placeholder{
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: #3C3A39;
+}
+
+.form-button{
+  padding:12px;
+  background: #FF6B00;
+  color:#fff;
+  width: 131px;
+  height: 48px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  border:none;
+}
+
+
+/* Footer-section   */
+
