@@ -4,6 +4,9 @@
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="description" content="Dambi Stuart, a Fullstack Software Engineer">
+  <meta name="keywords"
+    content="developer, fullstack, fullstack developer, javascript, nodejs, backend developer, frontend developer, software engineer">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Stuart Dambi | Fullstack Developer</title>
   <link rel="stylesheet" href="css/styles.css">
@@ -17,22 +20,32 @@
 
 <body>
   <header class="header">
-    <nav>
-      <ul>
-        <li><a href="#" class="developer">Dambi Stuart</a></li>
-        <li><a href="#"><i class="fa-solid fa-bars 2x"></i></a></li>
-      </ul>
-    </nav>
+    <a href="#" class="logo">Stuart Dambi</a>
+    <ul class="desktop-menu">
+      <li><a href="#" class="menu-links">Portfolio</a></li>
+      <li><a href="#" class="menu-links">About</a></li>
+      <li><a href="#" class="menu-links">Contact</a></li>
+      <li><a href="#" class="menu-links"><i class="fa-solid fa-envelope"></i></a></li>
+
+    </ul>
+    <ul class="mobile-menu">
+      <li><a href="#"><i class="fa-solid fa-bars 2x mobile"></i></a></li>
+    </ul>
   </header>
 
+
+
   <section class="welcome-area">
-    <h1 class="title">Hey there. <br> I'm Stuart</h1>
-    <h3 class="subtitle">I'am a Software Developer</h3>
-    <p class="description">
-      I can help build a product, feature or website.
-      Look through some of my work and experience! If you like what you see
-      and have a project you need coded, don't hesitate to contact me.
-    </p>
+    <div class="introduction">
+      <h1 class="title">Hey there. <br> I'm Stuart</h1>
+      <h3 class="subtitle">I'am a Software Developer</h3>
+      <p class="description">
+        I can help build a product, feature or website.
+        Look through some of my work and experience! If you like what you see
+        and have a project you need coded, don't hesitate to contact me.
+      </p>
+    </div>
+
     <ul class="social-links">
       <li><a href="#"><i class="fa-solid fa-envelope"></i></a></li>
       <li><a href="#"><i class="fab fa-twitter"></i></a></li>
@@ -42,71 +55,124 @@
   </section>
 
   <section class="projects">
-    <h2 class="projects-title">My Recent Works</h2>
-    <hr> <br><br> <br>
+    <div class="title-area">
+      <h2 class="projects-title">My Recent Works</h2>
+      <img src="/images/line.svg" alt="horintal line" class="heading-line" />
+    </div>
+
     <div class="project-area">
       <div class="project-card-one">
-        <img src="/images/work-image.svg" alt="project-card" />
-        <h3 class="proj-one-title">Multi-Post Stories</h3>
-        <p class="proj-one-desc">
-          A daily selection of privately personalized reads; no accounts or sign-ups required.
-          has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard
-          dummy text.
-        </p>
-        <ul class="tech-stack">
-          <li><a href="#" class="stack-link"><span>css</span></a></li>
-          <li><a href="#" class="stack-link"><span>html</span></a></li>
-          <li><a href="#" class="stack-link"><span>bootstrap</span></a></li>
-          <li><a href="#" class="stack-link"><span>ruby</span></a></li>
-        </ul>
-        <button class="proj-one-btn">See Project</button>
+        <img src="/images/work-image.svg" alt="project-card" class="vertical-line" />
+        <div class="project-card-content">
+          <h3 class="proj-one-title">Multi-Post Stories</h3>
+          <p class="proj-one-desc">
+            A daily selection of privately personalized reads; no accounts or sign-ups required.
+            has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard
+            dummy text.
+          </p>
+          <ul class="tech-stack">
+            <li><a href="#" class="stack-link"><span>css</span></a></li>
+            <li><a href="#" class="stack-link"><span>html</span></a></li>
+            <li><a href="#" class="stack-link"><span>bootstrap</span></a></li>
+            <li><a href="#" class="stack-link"><span>ruby</span></a></li>
+          </ul>
+          <button class="proj-one-btn">See Project</button>
+        </div>
       </div>
 
-      <div class="project-card-two">
-        <h3 class="proj-two-title">Professional Art Printing Data</h3>
-        <p class="proj-two-desc">
-          A daily selection of privately personalized reads; no accounts or sign-ups required.
-          has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard
-          dummy text.
-        </p>
-        <ul class="tech-stack">
-          <li class="tech-item"><span>css</span></li>
-          <li class="tech-item"><span>html</span></li>
-          <li class="tech-item"><span>bootstrap</span></li>
-          <li class="tech-item"><span>ruby</span></li>
-        </ul>
-        <button class="proj-two-btn">See Project</button>
+      <div class="projects-container">
+        <div class="project-card-two">
+          <h3 class="proj-two-title">Professional Art Printing Data</h3>
+          <p class="proj-two-desc">
+            A daily selection of privately personalized reads; no accounts or sign-ups required.
+            has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard
+            dummy text.
+          </p>
+          <ul class="tech-stack">
+            <li class="tech-item"><span>css</span></li>
+            <li class="tech-item"><span>html</span></li>
+            <li class="tech-item"><span>bootstrap</span></li>
+            <li class="tech-item"><span>ruby</span></li>
+          </ul>
+          <button class="proj-two-btn">See Project</button>
+        </div>
+        <div class="project-card-two">
+          <h3 class="proj-two-title">Professional Art Printing Data</h3>
+          <p class="proj-two-desc">
+            A daily selection of privately personalized reads; no accounts or sign-ups required.
+            has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard
+            dummy text.
+          </p>
+          <ul class="tech-stack">
+            <li class="tech-item"><span>css</span></li>
+            <li class="tech-item"><span>html</span></li>
+            <li class="tech-item"><span>bootstrap</span></li>
+            <li class="tech-item"><span>ruby</span></li>
+          </ul>
+          <button class="proj-two-btn">See Project</button>
+        </div>
+        <div class="project-card-two">
+          <h3 class="proj-two-title">Professional Art Printing Data</h3>
+          <p class="proj-two-desc">
+            A daily selection of privately personalized reads; no accounts or sign-ups required.
+            has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard
+            dummy text.
+          </p>
+          <ul class="tech-stack">
+            <li class="tech-item"><span>css</span></li>
+            <li class="tech-item"><span>html</span></li>
+            <li class="tech-item"><span>bootstrap</span></li>
+            <li class="tech-item"><span>ruby</span></li>
+          </ul>
+          <button class="proj-two-btn">See Project</button>
+        </div>
+        <div class="project-card-two">
+          <h3 class="proj-two-title">Professional Art Printing Data</h3>
+          <p class="proj-two-desc">
+            A daily selection of privately personalized reads; no accounts or sign-ups required.
+            has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard
+            dummy text.
+          </p>
+          <ul class="tech-stack">
+            <li class="tech-item"><span>css</span></li>
+            <li class="tech-item"><span>html</span></li>
+            <li class="tech-item"><span>bootstrap</span></li>
+            <li class="tech-item"><span>ruby</span></li>
+          </ul>
+          <button class="proj-two-btn">See Project</button>
+        </div>
+        <div class="project-card-two">
+          <h3 class="proj-two-title">Professional Art Printing Data</h3>
+          <p class="proj-two-desc">
+            A daily selection of privately personalized reads; no accounts or sign-ups required.
+            has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard
+            dummy text.
+          </p>
+          <ul class="tech-stack">
+            <li class="tech-item"><span>css</span></li>
+            <li class="tech-item"><span>html</span></li>
+            <li class="tech-item"><span>bootstrap</span></li>
+            <li class="tech-item"><span>ruby</span></li>
+          </ul>
+          <button class="proj-two-btn">See Project</button>
+        </div>
+        <div class="project-card-two">
+          <h3 class="proj-two-title">Professional Art Printing Data</h3>
+          <p class="proj-two-desc">
+            A daily selection of privately personalized reads; no accounts or sign-ups required.
+            has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard
+            dummy text.
+          </p>
+          <ul class="tech-stack">
+            <li class="tech-item"><span>css</span></li>
+            <li class="tech-item"><span>html</span></li>
+            <li class="tech-item"><span>bootstrap</span></li>
+            <li class="tech-item"><span>ruby</span></li>
+          </ul>
+          <button class="proj-two-btn">See Project</button>
+        </div>
       </div>
-      <div class="project-card-two">
-        <h3 class="proj-two-title">Professional Art Printing Data</h3>
-        <p class="proj-two-desc">
-          A daily selection of privately personalized reads; no accounts or sign-ups required.
-          has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard
-          dummy text.
-        </p>
-        <ul class="tech-stack">
-          <li class="tech-item"><span>css</span></li>
-          <li class="tech-item"><span>html</span></li>
-          <li class="tech-item"><span>bootstrap</span></li>
-          <li class="tech-item"><span>ruby</span></li>
-        </ul>
-        <button class="proj-two-btn">See Project</button>
-      </div>
-      <div class="project-card-two">
-        <h3 class="proj-two-title">Professional Art Printing Data</h3>
-        <p class="proj-two-desc">
-          A daily selection of privately personalized reads; no accounts or sign-ups required.
-          has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard
-          dummy text.
-        </p>
-        <ul class="tech-stack">
-          <li class="tech-item"><span>css</span></li>
-          <li class="tech-item"><span>html</span></li>
-          <li class="tech-item"><span>bootstrap</span></li>
-          <li class="tech-item"><span>ruby</span></li>
-        </ul>
-        <button class="proj-two-btn">See Project</button>
-      </div>
+
     </div>
   </section>
 
@@ -114,47 +180,73 @@
 
 
   <section class="aboutme">
-    <h2 class="about-title">About Me</h2>
-    <p class="about-desc">
-      Hello I’m a software developer! I can
-      help you build a product , feature or
-      website Look through some of my work
-      and experience! If you like what you see and have a project you need coded, don’t
-      hestiate to contact me.
-    </p>
-    <button class="aboutme-btn">Get My Resume</button>
-
+    <div class="aboutme-desc">
+      <h2 class="about-title">About Me</h2>
+      <p class="about-desc">
+        Hello I’m a software developer! I can
+        help you build a product , feature or
+        website Look through some of my work
+        and experience! If you like what you see and have a project you need coded, don’t
+        hestiate to contact me.
+      </p>
+      <button class="aboutme-btn">Get My Resume</button>
+    </div>
     <hr><br><br><br><br>
 
-    <div class="language">
-      <h3 class="language-title"> <i class="fa-solid fa-diamond icon"></i> Language</h3>
-      <ul class="languages">
-        <li class="lang"><a href="#">Javascript</a></li>
-        <li class="lang"><a href="#">Ruby</a></li>
-        <li class="lang"><a href="#">Html</a></li>
-        <li class="lang"><a href="#">Css</a></li>
-      </ul>
-    </div>
-    <div class="language">
-      <h3 class="language-title"> <i class="fa-solid fa-square icon"></i> Frameworks</h3>
-      <ul class="languages">
-        <li class="lang"><a href="#">Bootstrap</a></li>
-        <li class="lang"><a href="#">Ruby On Rails</a></li>
-        <li class="lang"><a href="#">RSPec</a></li>
-        <li class="lang"><a href="#">CapyBara</a></li>
-        <li class="lang"><a href="#">Selenium</a></li>
-      </ul>
-    </div>
-    <div class="language">
-      <h3 class="language-title"><i class="fa-solid fa-circle icon"></i> Skills</h3>
-      <ul class="languages">
-        <li class="lang"><a href="#">Codekit</a></li>
-        <li class="lang"><a href="#">Codepen</a></li>
-        <li class="lang"><a href="#">Gitlab</a></li>
-        <li class="lang"><a href="#">Terminal</a></li>
-      </ul>
+    <div class="my-stack">
+      <div class="language">
+        <h3 class="language-title"> <i class="fa-solid fa-diamond icon"></i> Language</h3>
+        <ul class="languages">
+          <li class="lang"><a href="#">Javascript</a></li>
+          <li class="lang"><a href="#">Ruby</a></li>
+          <li class="lang"><a href="#">Html</a></li>
+          <li class="lang"><a href="#">Css</a></li>
+        </ul>
+      </div>
+      <div class="language">
+        <h3 class="language-title"> <i class="fa-solid fa-square icon"></i> Frameworks</h3>
+        <ul class="languages">
+          <li class="lang"><a href="#">Bootstrap</a></li>
+          <li class="lang"><a href="#">Ruby On Rails</a></li>
+          <li class="lang"><a href="#">RSPec</a></li>
+          <li class="lang"><a href="#">CapyBara</a></li>
+        </ul>
+      </div>
+      <div class="language">
+        <h3 class="language-title"><i class="fa-solid fa-circle icon"></i> Skills</h3>
+        <ul class="languages">
+          <li class="lang"><a href="#">Codekit</a></li>
+          <li class="lang"><a href="#">Codepen</a></li>
+          <li class="lang"><a href="#">Gitlab</a></li>
+          <li class="lang"><a href="#">Terminal</a></li>
+        </ul>
+      </div>
     </div>
   </section>
+
+  <section class="contact-form">
+    <h4 class="contact-title">
+      I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.
+    </h4>
+    <form action="https://formspree.io/f/xnqrnjll" method="post">
+      <input type="text" class="form-field form-item" name="fullname" id="fullname" placeholder="Full Name">
+      <input type="email" class="form-field form-item" name="email" id="email" placeholder="Email Address"><br>
+      <textarea name="message" id="message" class="form-item" cols="30" rows="10"
+        placeholder="Enter text here"></textarea><br>
+      <input type="submit" class="submit form-item" value="Get in Touch">
+    </form>
+  </section>
+
+  <footer class="app-footer">
+    <img src="./images/footer-hr-desk.svg" class="footer-desktop" alt="">
+    <ul class="social-links">
+      <li><a href="#"><i class="fa-solid fa-envelope"></i></a></li>
+      <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+      <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+      <li><a href="#"><i class="fab fa-github"></i></a></li>
+    </ul>
+    <hr class="footer-hr">
+  </footer>
 </body>
 
 </html>
