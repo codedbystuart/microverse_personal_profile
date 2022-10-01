@@ -651,6 +651,10 @@ footer .social-links li a {
     font-size: 15px;
     line-height: 20px;
     align-self: center;
+    transition:color,1.1s,ease-in-out;
+  }
+  .desktop-menu li .menu-links:hover{
+    color:rgb(212, 65, 187);
   }
 
   /* Footer */
