@@ -21,24 +21,30 @@ span {
   padding: 10px 12px;
 }
 
-/* Head Area CSS */
+/* Header CSS */
 .header {
   padding: 12px 24px 12px 24px;
   background-color: #3c3a39;
-}
-
-.developer {
-  font-family: 'Roboto', sans-serif;
-  font-size: 18px;
-  font-weight: 700;
-}
-
-.header ul {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-content: center;
-  padding: 4px;
+}
+
+.developer {
+  font-family: 'Roboto', sans-serif;
+}
+
+.header .desktop-menu {
+  display: none;
+}
+
+.header .logo {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  align-self: center;
 }
 
 .header ul a {
@@ -47,11 +53,27 @@ span {
   text-decoration: none;
 }
 
+button:hover {
+  background-color: #fff5e1;
+  color: #f55800;
+  border: 1px solid #f55800;
+  font-weight: 700;
+}
+
+button:active {
+  background-color: #e05304;
+  color: #fff;
+  border: none;
+  font-size: 17px;
+  line-height: 24px;
+  font-weight: 700;
+}
+
 /* Welcome Area CSS */
 .welcome-area {
   display: flex;
   flex-direction: column;
-  background-image: url('/images/header-bg.svg');
+  background-image: url('../images/header-bg.svg');
   background-repeat: no-repeat;
   background-position: 100% 120%;
   background-color: #1c1a19;
@@ -69,17 +91,17 @@ span {
   font-family: 'Roboto', sans-serif;
   color: #fff5e1;
   font-weight: 700;
-  font-size: 24px;
+  font-size: 42px;
   padding: 12px 0;
-  line-height: 32px;
 }
 
 .description {
+  font-family: 'Poppins', sans-serif;
   color: #fff;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 400;
   padding: 0 0 21.98px 0;
-  line-height: 30px;
+  line-height: 24px;
 }
 
 .social-links {
@@ -98,7 +120,7 @@ span {
   font-size: 20px;
 }
 
-/* Projects Area CSS */
+/* Projects CSS */
 .projects {
   display: flex;
   flex-direction: column;
@@ -113,6 +135,11 @@ span {
   font-size: 40px;
   line-height: 52px;
   font-weight: 400;
+}
+
+.heading-line {
+  width: 327px;
+  margin-bottom: 80px;
 }
 
 .projects-area {
@@ -161,11 +188,28 @@ span {
   font-size: 17px;
   line-height: 24px;
   align-items: center;
+  cursor: pointer;
+}
+
+.project-card-one .proj-one-btn:hover {
+  background-color: #fff5e1;
+  color: #f55800;
+  border: 1px solid #f55800;
+  font-weight: 700;
+}
+
+.project-card-one .proj-one-btn:active {
+  background-color: #e05304;
+  color: #fff;
+  border: none;
+  font-size: 17px;
+  line-height: 24px;
+  font-weight: 700;
 }
 
 /* Project Card Two */
 .project-card-two {
-  background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%), url('/images/project-bg.svg');
+  background: url('../images/card-two-bg.svg');
   background-repeat: no-repeat;
   background-position: center;
   padding: 24px 0 0 0;
@@ -208,13 +252,30 @@ span {
   font-size: 17px;
   line-height: 24px;
   align-items: center;
+  cursor: pointer;
+}
+
+.project-card-two .proj-two-btn:hover {
+  background-color: #fff5e1;
+  color: #f55800;
+  border: 1px solid #f55800;
+  font-weight: 700;
+}
+
+.project-card-two .proj-two-btn:active {
+  background-color: #e05304;
+  color: #fff;
+  border: none;
+  font-size: 17px;
+  line-height: 24px;
+  font-weight: 700;
 }
 
 /* About Me CSS */
 .aboutme {
   padding: 0 24px 120px 24px;
   background-color: #1c1a19;
-  background-image: url('/images/aboutme-bg.svg');
+  background-image: url('../images/aboutme-bg.svg');
   background-repeat: no-repeat;
   background-position: 92% 28%;
 }
@@ -228,8 +289,8 @@ span {
 
 .about-desc {
   font-family: 'Inter', sans-serif;
-  color: #f4f5f7;
   font-style: normal;
+  color: #f4f5f7;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
@@ -246,6 +307,7 @@ span {
   font-size: 17px;
   line-height: 24px;
   margin-bottom: 209px;
+  cursor: pointer;
 }
 
 /* Languages */
@@ -274,9 +336,320 @@ span {
 
 .languages .lang {
   color: #fff;
-  font-size: 22px;
-  font-weight: 400;
-  line-height: 42.67px;
   text-align: center;
   padding: 12px;
+}
+
+/* Contact Form */
+.contact-form {
+  padding: 120px 24px 120px 24px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+form .form-item {
+  padding: 15px;
+}
+
+.contact-title {
+  font-family: 'Inter', sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 44px;
+  text-align: center;
+  color: #172b4d;
+}
+
+.form-field {
+  outline: 0;
+  border-width: 0 0 1px;
+  padding: 10px;
+  margin-bottom: 24px;
+}
+
+.form-field::placeholder {
+  font-size: 15px;
+  line-height: 24px;
+  color: #979493;
+}
+
+textarea {
+  border: none;
+  background: #fbf8f7;
+  height: 114px;
+}
+
+textarea::placeholder {
+  font-size: 15px;
+  line-height: 24px;
+  color: #3c3a39;
+}
+
+.submit {
+  width: 131px;
+  height: 48px;
+  background-color: #ff6b00;
+  color: #fff;
+  font-weight: 700;
+  border: none;
+  align-self: center;
+  cursor: pointer;
+}
+
+.submit:hover {
+  background-color: #fff5e1;
+  color: #f55800;
+  border: 1px solid #f55800;
+  font-weight: 700;
+}
+
+.submit:active {
+  background-color: #e05304;
+  color: #fff;
+  border: none;
+  font-size: 17px;
+  line-height: 24px;
+  font-weight: 700;
+}
+
+/* Footer CSS */
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+footer .social-links li a {
+  color: #505f79;
+}
+
+.footer-hr {
+  color: #0d151e;
+  width: 134px;
+  border-radius: 5px;
+  border: 2px solid #0d151e;
+}
+
+@media screen and (min-width: 768px) {
+  /* Welcome Area */
+  .welcome-area {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: start;
+    background: url('../images/header-bg-desktop.svg');
+    background-repeat: no-repeat;
+    background-position: right;
+    background-color: #1c1a19;
+  }
+
+  .welcome-area .social-links {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 279px;
+    margin-bottom: 251px;
+  }
+
+  .welcome-area .introduction {
+    margin-left: 88px;
+    margin-top: 192px;
+    width: 566px;
+  }
+
+  .welcome-area .introduction .description {
+    font-family: 'Inter', sans-serif;
+    width: 448px;
+    height: 140px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+  }
+
+  /* Recent Works Area */
+  .projects {
+    margin: 0 141px;
+  }
+
+  .projects .title-area {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+  }
+
+  .projects .title-area .projects-title {
+    font-family: 'Crete Round', serif;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 52px;
+  }
+
+  .projects .title-area .heading-line {
+    width: 694px;
+    margin-bottom: 20px;
+    margin-left: 18px;
+  }
+
+  /* Project card one */
+  .project-area .project-card-one {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 24px;
+  }
+
+  .project-area .project-card-one img {
+    width: 684px;
+    height: 448px;
+  }
+
+  .project-area .project-card-one .project-card-content {
+    padding-left: 24px;
+  }
+
+  /* Project card two */
+  .projects-container {
+    display: grid;
+    justify-content: space-between;
+    grid-template-columns: 369px 369px 369px;
+    grid-template-rows: auto auto auto;
+    gap: 24px;
+  }
+
+  .project-card-two {
+    grid-column: 0 / span 2;
+    grid-row: 0;
+    width: 369px;
+    height: 435px;
+    margin-right: 24px;
+    margin-left: 0;
+  }
+
+  .proj-two-btn {
+    display: none !important;
+  }
+
+  .project-card-two:hover {
+    cursor: pointer;
+  }
+
+  .project-card-two:hover .proj-two-btn {
+    display: inline-block !important;
+    cursor: pointer;
+  }
+
+  /* About me css */
+  .aboutme {
+    background: #1c1a19 url('../images/about-me-desktop.svg');
+    background-repeat: no-repeat;
+    background-position: right 10%;
+  }
+
+  .aboutme .aboutme-desc {
+    margin-left: 142px;
+    width: 566px;
+  }
+
+  .aboutme .aboutme-desc .about-title {
+    line-height: 81.5px;
+    font-weight: 400;
+  }
+
+  .aboutme .aboutme-desc .about-desc {
+    height: 148px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    font-style: normal;
+    line-height: 32px;
+  }
+
+  .my-stack {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+
+  .languages {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+  }
+
+  /* Contact area css */
+  .contact-form {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .contact-form .contact-title {
+    color: #262626;
+    width: 455px;
+    height: 256px;
+    margin-right: 24px;
+    margin-left: 135px;
+    text-align: start;
+  }
+
+  .contact-form form {
+    width: 684px;
+  }
+
+  .submit {
+    align-self: flex-start;
+  }
+
+  /* Header CSS */
+  .header {
+    height: 72px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .mobile-menu {
+    display: none !important;
+    align-self: center;
+  }
+
+  .desktop-menu {
+    display: flex !important;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 26px;
+    padding-bottom: 26px;
+  }
+
+  .header .logo {
+    font-family: 'Inter', sans-serif;
+    margin-left: 154px;
+    align-self: center;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 20px;
+  }
+
+  .desktop-menu li {
+    list-style: none;
+    padding: 32px;
+  }
+
+  .desktop-menu li .menu-links {
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 20px;
+    align-self: center;
+  }
+
+  /* Footer */
+  .footer-hr {
+    display: none;
+  }
+
+  .app-footer .social-links {
+    margin-top: 24px;
+  }
 }
