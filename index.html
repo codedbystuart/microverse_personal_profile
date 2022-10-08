@@ -4,6 +4,9 @@
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="description" content="Dambi Stuart, a Fullstack Software Engineer">
+  <meta name="keywords"
+    content="developer, fullstack, fullstack developer, javascript, nodejs, backend developer, frontend developer, software engineer">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Stuart Dambi | Fullstack Developer</title>
   <link rel="stylesheet" href="css/styles.css">
@@ -17,12 +20,10 @@
 
 <body>
   <header class="header">
-    <nav>
-      <ul>
-        <li><a href="#" class="developer">Dambi Stuart</a></li>
-        <li><a href="#"><i class="fa-solid fa-bars 2x"></i></a></li>
-      </ul>
-    </nav>
+    <ul>
+      <li><a href="#" class="developer">Dambi Stuart</a></li>
+      <li><a href="#"><i class="fa-solid fa-bars 2x"></i></a></li>
+    </ul>
   </header>
 
   <section class="welcome-area">
@@ -155,6 +156,32 @@
       </ul>
     </div>
   </section>
+
+  <!-- Contact form -->
+  <section class="contact-form">
+    <h4 class="contact-title">
+      I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.
+    </h4>
+    <form action="https://formspree.io/f/xnqrnjll" method="post">
+      <input type="text" class="form-field form-item" maxlength="30" name="fullname" id="fullname"
+        placeholder="Full Name" required>
+      <input type="email" class="form-field form-item" name="email" id="email" placeholder="Email Address" required><br>
+      <textarea name="message" id="message" maxlength="500" class="form-item" cols="30" rows="10"
+        placeholder="Enter text here" required></textarea><br>
+      <input type="submit" class="submit form-item" value="Get in Touch">
+    </form>
+  </section>
+
+  <hr>
+  <footer>
+    <ul class="social-links">
+      <li><a href="#"><i class="fa-solid fa-envelope"></i></a></li>
+      <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+      <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+      <li><a href="#"><i class="fab fa-github"></i></a></li>
+    </ul>
+    <hr class="footer-hr">
+  </footer>
 </body>
 
 </html>
